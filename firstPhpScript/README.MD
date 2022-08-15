@@ -1,0 +1,1 @@
+This small script takes as input values from the user in the text box provided and stores them into a file. It then displays the values onto the screen.
