@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: url('/img/manGym.jpg');
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+
+    font-family: 'Splash', cursive;
+}
+.left img{
+    width: 120px;
+    display: block;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+#logoText {
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.mid{
+    /* border: 2px solid green; */
+    width: 40%;
+    margin: 20px auto;
+}
+
+.right{
+    /* border: 2px solid blue; */
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 27px;
+}
+
+.navbar {
+    overflow: auto;
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+    top: 35px;
+}
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 18px;
+    font-size: 24px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(84, 237, 158);
+}
+
+.btn{
+    margin: 0 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(46, 45, 45);
+}
+.container .btn {
+    margin: 4px 0px;
+    width: 40%;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 170px 51px 150px 51px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+.container h1 {
+    text-align: center;
+}
+.form-group input {
+    margin: 4px auto;
+    font-size: 14px;
+    width: 95%;
+    padding: 6px;
+    border-radius: 8px;
+}
