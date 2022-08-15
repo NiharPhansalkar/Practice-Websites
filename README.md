@@ -1,1 +1,1 @@
-This repository has my Web Development projects that I am planning to build over the years.
+This repository contains all my practice websites that I will be building.
