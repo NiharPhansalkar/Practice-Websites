@@ -1,0 +1,54 @@
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mainFrame, .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainFrame {
+    flex-direction: column;
+    background: #2c2d34;
+    border-radius: 2em;
+    width: 11em;
+    height: 11em;
+    box-shadow: rgba(0,0,0,0.24);
+}
+
+.row div {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.row:nth-child(1) div {
+    background: linear-gradient(to right, rgba(255,164,0,1) 0%,rgba(255,161,0,1) 51%,rgba(255,181,53,1) 67%,rgba(255,195,99,1) 100%);
+    width: 5em;
+    height: 2.5em;
+    border-radius: 2em;
+}
+
+.row:nth-child(2) div:first-child {
+    background: #d11149;
+    border-radius: 50% 0 0 50%;
+}
+
+.row:nth-child(2) div:last-child {
+    background: #6610f2;
+    border-radius: 50%;
+}
+
+.row:nth-child(3) div:first-child {
+    background: #1effbc;
+    border-radius: 50% 0 50% 50%;
+}
+
+span {
+    color: azure;
+    font-size: 15px;
+}
