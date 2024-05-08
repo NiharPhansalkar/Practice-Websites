@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+
+#mainLogo {
+    width: 65px;
+    margin: 0px 100px 0px 0px;
+}
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar .btn{
+    height: 35px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    padding: 8px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 16px;
+    border-radius: 16px;
+}
+#navbar ul li a:hover{
+    background-color: rgb(133, 205, 24);
+    color: white;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 20px;
+    height: 30px;
+    padding: 6px;
+    background-color: rgb(59, 142, 59);
+    color: white;
+    box-shadow: 4px 5px 8px black;
+}
+.btn:hover {
+    cursor: pointer;
+}
+
+/* Banner */
+.banner {
+    position: relative;
+}
+.banner img{
+    width: 100vw;
+    height: 600px;
+}
+.banner h1{
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    font-size: 3.5rem;
+}
+.banner div{
+    color: white;
+    background-color: rgba(6, 210, 6, 0.45);
+    padding: 12px;
+    position: absolute;
+    top: 240px;
+    left: 250px;
+    font-size: 2.5rem;
+}
+
+/* Description */
+#introduction h2 {
+    font-size: 2.5rem;
+    margin: 18px 0px 0px 0px;
+}
+#introduction div {
+    margin: 12px auto;
+    width: 1050px;
+}
+#introduction div p{
+    text-align: center;
+}
+
+/* What you can do */
+#youDo h2{
+    margin: 45px 0px 0px 0px;
+    font-size: 2rem;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+#volunteer {
+    /* border: 2px solid red; */
+    padding: 10px; 
+    margin: 0px 140px 0px 0px;
+}
+#corporates {
+    /* border: 2px solid green; */
+    padding: 10px; 
+    margin: 0px 140px 0px 0px;
+}
+#communities {
+    /* border: 2px solid blue; */
+    padding: 10px; 
+}
+
+/* Utility classes */
+.allHeads {
+    color: black;
+    text-align: center;
+}
+
+.highlightWords {
+    color: rgb(12, 202, 12);
+}
+
+.center {
+    width: 82px;
+    margin: auto;
+}
